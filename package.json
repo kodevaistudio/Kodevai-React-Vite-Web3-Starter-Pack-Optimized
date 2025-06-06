@@ -1,0 +1,31 @@
+{
+  "name": "react-vite-web3-starter",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "compile": "node scripts/compile.js",
+    "deploy": "node scripts/deploy.js",
+    "verify": "node scripts/verify.js"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "ethers": "^6.13.0",
+    "solc": "0.8.20",
+    "dotenv": "^16.4.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "@vitejs/plugin-react": "^4.4.1",
+    "vite": "^6.3.5",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  }
+}
